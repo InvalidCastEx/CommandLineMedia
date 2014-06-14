@@ -64,16 +64,22 @@ namespace CommandLineMediaController
                 {
                     // First command line argument must contain the process name or -?
                     string processName = args[0];
-
-                    // Use the first process with a matching name
                     Process[] matchingProcesses = Process.GetProcessesByName(processName);
                     Process selectedProcess = null;
 
                     if (matchingProcesses != null && matchingProcesses.Length > 0)
                     {
-                        selectedProcess = matchingProcesses[0];
+                        // If there is more than one process take the first one with a valid main window handle
+                        foreach(Process currentProcess in matchingProcesses)
+                        {
+                            if (currentProcess != null && currentProcess.MainWindowHandle != IntPtr.Zero)
+                            {
+                                selectedProcess = currentProcess;
+                                break;
+                            }
+                        }
 
-                        if (selectedProcess != null && selectedProcess.MainWindowHandle != IntPtr.Zero)
+                        if (selectedProcess != null)
                         {
                             Console.WriteLine("Selected Process: " + selectedProcess.ProcessName);
 
