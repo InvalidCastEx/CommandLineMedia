@@ -41,14 +41,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoreAudioAPI\IAudioSessionControl.cs" />
+    <Compile Include="CoreAudioAPI\IAudioSessionControl2.cs" />
+    <Compile Include="CoreAudioAPI\IAudioSessionEnumerator.cs" />
+    <Compile Include="CoreAudioAPI\IAudioSessionManager2.cs" />
+    <Compile Include="CoreAudioAPI\IMMDevice.cs" />
+    <Compile Include="CoreAudioAPI\IMMDeviceEnumerator.cs" />
+    <Compile Include="CoreAudioAPI\ISimpleAudioVolume.cs" />
+    <Compile Include="CoreAudioAPI\MMDeviceEnumerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
