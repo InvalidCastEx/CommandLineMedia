@@ -8,7 +8,7 @@ Windows XP users may need to install the framework manual [from Microsoft](http:
 The application is provided as an executable within a .zip file. Simply extract the contents of the .zip file to any folder on your PC
 ## Usage
 
-clmcontrol <Process Name> [-p](-p) [-pp](-pp) [-pa](-pa) [-s](-s) [-vm](-vm) [-mvm](-mvm) [-vu](-vu) [-mvu](-mvu) [-vd](-vd) [-mvd](-mvd) [-nt](-nt) [-pt](-pt) [-?](-_)
+    clmcontrol <Process Name> [-p](-p) [-pp](-pp) [-pa](-pa) [-s](-s) [-vm](-vm) [-mvm](-mvm) [-vu](-vu) [-mvu](-mvu) [-vd](-vd) [-mvd](-mvd) [-nt](-nt) [-pt](-pt) [-?](-_)
 
 ## Parameters
 
@@ -43,7 +43,7 @@ To use this application with Voice Attack choose Run an Application (in Other) w
 For example to issue the Play/Pause command to Spotify you would use something like:
 ![](Documentation_vaplay.png)
 
-A [sample voice attack profile](Documentation_861358) has been included with the release. The sample assumes that you have extracted the executable to C:\Program Files (x86)\VoiceAttack\Tools\. If you have extracted the file to a different directory you will need to update the path for each of the commands in the sample.
+A sample voice attack profile has been included with the release. The sample assumes that you have extracted the executable to C:\Program Files (x86)\VoiceAttack\Tools\. If you have extracted the file to a different directory you will need to update the path for each of the commands in the sample.
 ## Limitations
 * The volume up and down commands change the volume by one tick every time it is included. You will likely want to include multiple instances of these commands when changing the volume. For example:
 
