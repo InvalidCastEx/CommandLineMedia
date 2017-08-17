@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>a9199ad1-a403-4c8f-8469-ec2341c32d62</Id>
+  <Name>CLMControl Spotify Sample</Name>
+  <Commands>
+    <Command>
+      <Id>48eff0ea-6d82-4caa-a45f-0ed5958477ec</Id>
+      <CommandString>mute</CommandString>
+      <ActionSequence>
+        <CommandAction>
+          <Id>01b6833e-d65d-44ac-aeb2-19f5ce24b51f</Id>
+          <ActionType>Launch</ActionType>
+          <Duration>0</Duration>
+          <Delay>0</Delay>
+          <KeyCodes />
+          <Context>C:\Program Files (x86)\VoiceAttack\Tools\CLMControl.exe</Context>
+          <Context2>spotify -vm</Context2>
+          <Context3 />
+          <X>0</X>
+          <Y>0</Y>
+          <InputMode>0</InputMode>
+        </CommandAction>
+      </ActionSequence>
+      <Async>true</Async>
+      <Enabled>true</Enabled>
+      <UseShortcut>false</UseShortcut>
+      <keyValue>0</keyValue>
+      <keyShift>0</keyShift>
+      <keyAlt>0</keyAlt>
+      <keyCtrl>0</keyCtrl>
+      <keyWin>0</keyWin>
+      <keyPassthru>true</keyPassthru>
+      <UseSpokenPhrase>true</UseSpokenPhrase>
+      <onlyKeyUp>false</onlyKeyUp>
+      <RepeatNumber>2</RepeatNumber>
+      <RepeatType>0</RepeatType>
+      <CommandType>0</CommandType>
+    </Command>
+    <Command>
+      <Id>82f91d58-8778-4090-a22e-56168b712e92</Id>
+      <CommandString>next</CommandString>
+      <ActionSequence>
+        <CommandAction>
+          <Id>52d9d3f1-4d19-4432-a7e2-c3e64a9a1d23</Id>
+          <ActionType>Launch</ActionType>
+          <Duration>0</Duration>
+          <Delay>0</Delay>
+          <KeyCodes />
+          <Context>C:\Program Files (x86)\VoiceAttack\Tools\CLMControl.exe</Context>
+          <Context2>spotify  -nt</Context2>
+          <Context3 />
+          <X>0</X>
+          <Y>0</Y>
+          <InputMode>0</InputMode>
+        </CommandAction>
+      </ActionSequence>
+      <Async>true</Async>
+      <Enabled>true</Enabled>
+      <UseShortcut>false</UseShortcut>
+      <keyValue>0</keyValue>
+      <keyShift>0</keyShift>
+      <keyAlt>0</keyAlt>
+      <keyCtrl>0</keyCtrl>
+      <keyWin>0</keyWin>
+      <keyPassthru>true</keyPassthru>
+      <UseSpokenPhrase>true</UseSpokenPhrase>
+      <onlyKeyUp>false</onlyKeyUp>
+      <RepeatNumber>2</RepeatNumber>
+      <RepeatType>0</RepeatType>
+      <CommandType>0</CommandType>
+    </Command>
+    <Command>
+      <Id>bb3fd267-d2c9-4fbb-a5ea-a8cac1c7925b</Id>
+      <CommandString>play;pause</CommandString>
+      <ActionSequence>
+        <CommandAction>
+          <Id>395691ad-0946-4ba0-b4be-1e57c972929a</Id>
+          <ActionType>Launch</ActionType>
+          <Duration>0</Duration>
+          <Delay>0</Delay>
+          <KeyCodes />
+          <Context>C:\Program Files (x86)\VoiceAttack\Tools\CLMControl.exe</Context>
+          <Context2>spotify -pp</Context2>
+          <Context3 />
+          <X>0</X>
+          <Y>0</Y>
+          <InputMode>0</InputMode>
+        </CommandAction>
+      </ActionSequence>
+      <Async>true</Async>
+      <Enabled>true</Enabled>
+      <UseShortcut>false</UseShortcut>
+      <keyValue>0</keyValue>
+      <keyShift>0</keyShift>
+      <keyAlt>0</keyAlt>
+      <keyCtrl>0</keyCtrl>
+      <keyWin>0</keyWin>
+      <keyPassthru>true</keyPassthru>
+      <UseSpokenPhrase>true</UseSpokenPhrase>
+      <onlyKeyUp>false</onlyKeyUp>
+      <RepeatNumber>2</RepeatNumber>
+      <RepeatType>0</RepeatType>
+      <CommandType>0</CommandType>
+    </Command>
+    <Command>
+      <Id>1cdc6f9f-1901-4f32-9137-860c48fd55e4</Id>
+      <CommandString>previous</CommandString>
+      <ActionSequence>
+        <CommandAction>
+          <Id>5260405c-9310-49a1-bd01-0b40d7f8e6d7</Id>
+          <ActionType>Launch</ActionType>
+          <Duration>0</Duration>
+          <Delay>0</Delay>
+          <KeyCodes />
+          <Context>C:\Program Files (x86)\VoiceAttack\Tools\CLMControl.exe</Context>
+          <Context2>spotify -pt -pt</Context2>
+          <Context3 />
+          <X>0</X>
+          <Y>0</Y>
+          <InputMode>0</InputMode>
+        </CommandAction>
+      </ActionSequence>
+      <Async>true</Async>
+      <Enabled>true</Enabled>
+      <UseShortcut>false</UseShortcut>
+      <keyValue>0</keyValue>
+      <keyShift>0</keyShift>
+      <keyAlt>0</keyAlt>
+      <keyCtrl>0</keyCtrl>
+      <keyWin>0</keyWin>
+      <keyPassthru>true</keyPassthru>
+      <UseSpokenPhrase>true</UseSpokenPhrase>
+      <onlyKeyUp>false</onlyKeyUp>
+      <RepeatNumber>2</RepeatNumber>
+      <RepeatType>0</RepeatType>
+      <CommandType>0</CommandType>
+    </Command>
+    <Command>
+      <Id>a3882e06-d759-45ee-b4e6-2a076e46cb65</Id>
+      <CommandString>volume down</CommandString>
+      <ActionSequence>
+        <CommandAction>
+          <Id>5b7863d3-451f-47a8-bb9f-083f6a3adf67</Id>
+          <ActionType>Launch</ActionType>
+          <Duration>0</Duration>
+          <Delay>0</Delay>
+          <KeyCodes />
+          <Context>C:\Program Files (x86)\VoiceAttack\Tools\CLMControl.exe</Context>
+          <Context2>spotify -vd</Context2>
+          <Context3 />
+          <X>0</X>
+          <Y>0</Y>
+          <InputMode>0</InputMode>
+        </CommandAction>
+      </ActionSequence>
+      <Async>true</Async>
+      <Enabled>true</Enabled>
+      <UseShortcut>false</UseShortcut>
+      <keyValue>0</keyValue>
+      <keyShift>0</keyShift>
+      <keyAlt>0</keyAlt>
+      <keyCtrl>0</keyCtrl>
+      <keyWin>0</keyWin>
+      <keyPassthru>true</keyPassthru>
+      <UseSpokenPhrase>true</UseSpokenPhrase>
+      <onlyKeyUp>false</onlyKeyUp>
+      <RepeatNumber>2</RepeatNumber>
+      <RepeatType>0</RepeatType>
+      <CommandType>0</CommandType>
+    </Command>
+    <Command>
+      <Id>61d63534-6e8f-4568-90d8-2c6fea5a88b5</Id>
+      <CommandString>volume down three</CommandString>
+      <ActionSequence>
+        <CommandAction>
+          <Id>7727dd28-9e88-493f-86b4-da6a4b914d4f</Id>
+          <ActionType>Launch</ActionType>
+          <Duration>0</Duration>
+          <Delay>0</Delay>
+          <KeyCodes />
+          <Context>C:\Program Files (x86)\VoiceAttack\Tools\CLMControl.exe</Context>
+          <Context2>spotify -vd -vd -vd</Context2>
+          <Context3 />
+          <X>0</X>
+          <Y>0</Y>
+          <InputMode>0</InputMode>
+        </CommandAction>
+      </ActionSequence>
+      <Async>true</Async>
+      <Enabled>true</Enabled>
+      <UseShortcut>false</UseShortcut>
+      <keyValue>0</keyValue>
+      <keyShift>0</keyShift>
+      <keyAlt>0</keyAlt>
+      <keyCtrl>0</keyCtrl>
+      <keyWin>0</keyWin>
+      <keyPassthru>true</keyPassthru>
+      <UseSpokenPhrase>true</UseSpokenPhrase>
+      <onlyKeyUp>false</onlyKeyUp>
+      <RepeatNumber>2</RepeatNumber>
+      <RepeatType>0</RepeatType>
+      <CommandType>0</CommandType>
+    </Command>
+    <Command>
+      <Id>6ea74063-8c70-4773-bea2-a9392b507ecf</Id>
+      <CommandString>volume up</CommandString>
+      <ActionSequence>
+        <CommandAction>
+          <Id>e905832a-4820-48e3-9745-569d23355101</Id>
+          <ActionType>Launch</ActionType>
+          <Duration>0</Duration>
+          <Delay>0</Delay>
+          <KeyCodes />
+          <Context>C:\Program Files (x86)\VoiceAttack\Tools\CLMControl.exe</Context>
+          <Context2>spotify -vu</Context2>
+          <Context3 />
+          <X>0</X>
+          <Y>0</Y>
+          <InputMode>0</InputMode>
+        </CommandAction>
+      </ActionSequence>
+      <Async>true</Async>
+      <Enabled>true</Enabled>
+      <UseShortcut>false</UseShortcut>
+      <keyValue>0</keyValue>
+      <keyShift>0</keyShift>
+      <keyAlt>0</keyAlt>
+      <keyCtrl>0</keyCtrl>
+      <keyWin>0</keyWin>
+      <keyPassthru>true</keyPassthru>
+      <UseSpokenPhrase>true</UseSpokenPhrase>
+      <onlyKeyUp>false</onlyKeyUp>
+      <RepeatNumber>2</RepeatNumber>
+      <RepeatType>0</RepeatType>
+      <CommandType>0</CommandType>
+    </Command>
+    <Command>
+      <Id>ed58a081-c0a4-4205-915a-03b13f4e9852</Id>
+      <CommandString>volume up three</CommandString>
+      <ActionSequence>
+        <CommandAction>
+          <Id>b3fffac1-07e4-4fc3-853b-2acf8f9e912d</Id>
+          <ActionType>Launch</ActionType>
+          <Duration>0</Duration>
+          <Delay>0</Delay>
+          <KeyCodes />
+          <Context>C:\Program Files (x86)\VoiceAttack\Tools\CLMControl.exe</Context>
+          <Context2>spotify -vu -vu -vu</Context2>
+          <Context3 />
+          <X>0</X>
+          <Y>0</Y>
+          <InputMode>0</InputMode>
+        </CommandAction>
+      </ActionSequence>
+      <Async>true</Async>
+      <Enabled>true</Enabled>
+      <UseShortcut>false</UseShortcut>
+      <keyValue>0</keyValue>
+      <keyShift>0</keyShift>
+      <keyAlt>0</keyAlt>
+      <keyCtrl>0</keyCtrl>
+      <keyWin>0</keyWin>
+      <keyPassthru>true</keyPassthru>
+      <UseSpokenPhrase>true</UseSpokenPhrase>
+      <onlyKeyUp>false</onlyKeyUp>
+      <RepeatNumber>2</RepeatNumber>
+      <RepeatType>0</RepeatType>
+      <CommandType>0</CommandType>
+    </Command>
+  </Commands>
+  <OverrideGlobal>false</OverrideGlobal>
+  <GlobalHotkeyIndex>0</GlobalHotkeyIndex>
+  <GlobalHotkeyEnabled>false</GlobalHotkeyEnabled>
+  <GlobalHotkeyValue>0</GlobalHotkeyValue>
+  <GlobalHotkeyShift>0</GlobalHotkeyShift>
+  <GlobalHotkeyAlt>0</GlobalHotkeyAlt>
+  <GlobalHotkeyCtrl>0</GlobalHotkeyCtrl>
+  <GlobalHotkeyWin>0</GlobalHotkeyWin>
+  <GlobalHotkeyPassThru>false</GlobalHotkeyPassThru>
+  <OverrideMouse>false</OverrideMouse>
+  <MouseIndex>0</MouseIndex>
+  <OverrideStop>false</OverrideStop>
+  <StopCommandHotkeyEnabled>false</StopCommandHotkeyEnabled>
+  <StopCommandHotkeyValue>0</StopCommandHotkeyValue>
+  <StopCommandHotkeyShift>0</StopCommandHotkeyShift>
+  <StopCommandHotkeyAlt>0</StopCommandHotkeyAlt>
+  <StopCommandHotkeyCtrl>0</StopCommandHotkeyCtrl>
+  <StopCommandHotkeyWin>0</StopCommandHotkeyWin>
+  <StopCommandHotkeyPassThru>false</StopCommandHotkeyPassThru>
+  <DisableShortcuts>false</DisableShortcuts>
+  <UseOverrideListening>false</UseOverrideListening>
+</Profile>
